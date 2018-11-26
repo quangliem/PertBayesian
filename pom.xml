@@ -19,7 +19,23 @@
             </plugin>
         </plugins>
     </build>
+    <!--<repositories>-->
+        <!--<repository>-->
+            <!--<id>in-project</id>-->
+            <!--<name>In Project Repo</name>-->
+            <!--<url>https://github.com/quangliem/mvn-repo/raw/master/</url>-->
+            <!--<url>file://Users/quangliem/mvn-repo</url>-->
+        <!--</repository>-->
+    <!--</repositories>-->
+
     <dependencies>
+        <dependency>
+            <groupId>com.bayesserver</groupId>
+            <artifactId>bayesserver</artifactId>
+            <version>7.25</version>
+            <scope>system</scope>
+            <systemPath>/Users/quangliem/mvn-repo/bayesserver-7.25.jar</systemPath>
+        </dependency>
         <dependency>
             <groupId>org.jfree</groupId>
             <artifactId>jcommon</artifactId>

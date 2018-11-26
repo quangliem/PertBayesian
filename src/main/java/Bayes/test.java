@@ -157,7 +157,7 @@ public class test extends JFrame{
     }
     
     public static void main(String[] args) {
-        test testframe = new test("test", "D:/risk/probability1.bin");
+        test testframe = new test("test", "probability1.bin");
         testframe.setVisible(true);
         testframe.setDefaultCloseOperation(testframe.EXIT_ON_CLOSE);
     }
