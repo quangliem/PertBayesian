@@ -1,7 +1,6 @@
 package Bayes;
 
 import java.util.ArrayList;
-import java.util.Set;
 public class BayesInActivity {
 
     public void initParents(Task task) {

@@ -1,24 +1,20 @@
 package GUI;
 
-import Bayes.TimeCalculation;
 import Bayes.InitialDurationNodes;
 import Bayes.Task;
+import Bayes.TimeCalculation;
+import jxl.Sheet;
+import jxl.Workbook;
+import jxl.read.biff.BiffException;
+
+import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Random;
-import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javafx.stage.FileChooser;
-import javax.swing.JFileChooser;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.table.DefaultTableModel;
-import jxl.Sheet;
-import jxl.Workbook;
-import jxl.read.biff.BiffException;
 public class PERTBayesNetwork extends javax.swing.JFrame {
     
     public static String    FILE_DIRECTORY = "D:/dulieuthat";

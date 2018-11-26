@@ -1,7 +1,5 @@
 package Bayes;
 
-import java.util.ArrayList;
-
 public class BayesCalculation {
 
     private Task[] result;

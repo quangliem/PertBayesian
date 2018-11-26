@@ -1,26 +1,15 @@
 package GUI;
 
-import Bayes.TimeCalculation;
 import Bayes.Task;
-import com.sun.java.accessibility.util.AWTEventMonitor;
-import com.sun.java.swing.plaf.motif.MotifTextUI;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Point;
+import Bayes.TimeCalculation;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionAdapter;
 import java.awt.event.MouseMotionListener;
-import java.awt.event.MouseWheelEvent;
-import java.awt.event.MouseWheelListener;
 import java.util.ArrayList;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
 
 //class show mang bayesian
 public class PanelTask extends JPanel {
