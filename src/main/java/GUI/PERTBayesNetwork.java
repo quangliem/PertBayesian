@@ -301,9 +301,6 @@ public class PERTBayesNetwork extends javax.swing.JFrame {
             return -1;
         }
     }
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
