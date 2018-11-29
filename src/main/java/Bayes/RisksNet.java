@@ -338,7 +338,6 @@ public class RisksNet {
             for (int i=0; i < line.length; i++) {
                     dist[i] = Double.parseDouble(line[i]);
             }
-    //        dist = normalize(dist, 5, dist.length/5);
             dist = normalize(dist, 2, dist.length/2);
             iterator7.copyFrom(dist);
             node7.setDistribution(table7);

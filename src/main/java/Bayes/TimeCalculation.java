@@ -33,22 +33,22 @@ public class TimeCalculation {
         HashSet<Task> allTasks = new HashSet<Task>();
         
         InitialDurationNodes DA = new InitialDurationNodes();
-        String riskA = "D:/distribution/probability" + rand(1, 7) + ".bin";
+        String riskA = "./probability" + rand(1, 7) + ".bin";
         DA.innitTotalDuration(5,6,7,riskA);
         Node durationA = DA.getEstimatedDuration();
         Node totalDurationA = DA.getTotalDuration();
         InitialDurationNodes DB = new InitialDurationNodes();
-        String riskB = "D:/distribution/probability" + rand(1, 7) + ".bin";
+        String riskB = "./probability" + rand(1, 7) + ".bin";
         DB.innitTotalDuration(5, 7, 8.5,riskB);
         Node durationB = DB.getEstimatedDuration();
         Node totalDurationB = DB.getTotalDuration();
         InitialDurationNodes DC = new InitialDurationNodes();
-        String riskC = "D:/distribution/probability" + rand(1, 7) + ".bin";
+        String riskC = "./probability" + rand(1, 7) + ".bin";
         DC.innitTotalDuration(6, 8, 8.5,riskC);
         Node durationC = DC.getEstimatedDuration();
         Node totalDurationC = DC.getTotalDuration();
         InitialDurationNodes DD = new InitialDurationNodes();
-        String riskD = "D:/distribution/probability" + rand(1, 7) + ".bin";
+        String riskD = "./probability" + rand(1, 7) + ".bin";
         DD.innitTotalDuration(2,4,6,riskD);
         Node durationD = DD.getEstimatedDuration();
         Node totalDurationD = DD.getTotalDuration();

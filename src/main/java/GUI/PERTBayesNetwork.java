@@ -167,7 +167,7 @@ public class PERTBayesNetwork extends javax.swing.JFrame {
                   System.out.println("Reading data in file.......");
 			// read data in each cell
                     for (int row = 1; row < rows; row++) {
-                        String riskFile = "D:/distribution/probability" + rand(1, 7) + ".bin";
+                        String riskFile = "./probability" + rand(1, 7) + ".bin";
 			String name = sheet.getCell(1, row).getContents();
 			int optimistic = Integer.parseInt(sheet.getCell(2, row).getContents());
                         int mostlikely = Integer.parseInt(sheet.getCell(3, row).getContents());
@@ -226,7 +226,7 @@ public class PERTBayesNetwork extends javax.swing.JFrame {
                   System.out.println("Reading data in file.......");
                   // read data in each cell
                     for (int row = 1; row < rows; row++) {
-                        String riskFile = "D:/distribution/probability" + rand(1, 7) + ".bin";
+                        String riskFile = "./probability" + rand(1, 7) + ".bin";
 			String name = sheet.getCell(1, row).getContents();
 			int optimistic = Integer.parseInt(sheet.getCell(2, row).getContents());
                         int mostlikely = Integer.parseInt(sheet.getCell(3, row).getContents());
