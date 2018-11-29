@@ -28,8 +28,6 @@ public class RisksNet {
 	
         //normalizing propability 
 	public double[] normalize(double[] dist, int row, int col) {
-		//System.out.println("row: " + row);
-		//System.out.println("col: " + col);
 		int len = dist.length;
 		double[] newDist = new double[500];
 		if (len != (row*col)) {
@@ -264,7 +262,7 @@ public class RisksNet {
 
             riskNet.getLinks().add(new Link(node22, node23));
 
-            CSVReader reader = new CSVReader(new FileReader("D:/distribution/distribution" + id +".csv"));
+            CSVReader reader = new CSVReader(new FileReader("./distribution" + id +".csv"));
             String[] line;
 
             Table table1 = node1.newDistribution().getTable();

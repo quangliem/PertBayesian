@@ -17,18 +17,18 @@ public class BayesNet {
 	private RisksNet risknet;
 
 	public BayesNet() throws IOException, InconsistentEvidenceException {
-		for (int id = 1; id <= 7; id++) {
+		for (int id = 1; id <= 1; id++) {
 			risknet = new RisksNet(Integer.toString(id));
 			InferenceFactory factory = new RelevanceTreeInferenceFactory();
 			Inference inference = factory.createInferenceEngine(risknet.getRiskNet());
 			QueryOptions queryOptions = factory.createQueryOptions();
 			QueryOutput queryOutput = factory.createQueryOutput();
-			System.out.println("D:/distribution/probability" + id +".bin");
+			System.out.println("./probability" + id +".bin");
 			// Bước 1: Tạo đối tượng luồng và liên kết nguồn dữ liệu
-			FileOutputStream fos = new FileOutputStream("D:/distribution/probability" + id +".bin");
+			FileOutputStream fos = new FileOutputStream("./probability" + id +".bin");
 			DataOutputStream dos = new DataOutputStream(fos);
 
-			// Bước 2: Ghi dữ liệu
+			// Ghi dữ liệu
 
 			for (int i = 0; i < 23; i++) {
 				Table queryRisk = new Table(risknet.getRiskNet().getNodes().get(i));
@@ -42,8 +42,6 @@ public class BayesNet {
 
 				dos.writeDouble(queryRisk.get(stateTrue));
 			}
-
-			// Bước 3: Đóng luồng
 			fos.close();
 			dos.close();
 			System.out.println("Done!");
