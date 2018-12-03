@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0db909bd-298e-44af-bd9b-67dc4a3f6cf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distribution1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/distribution1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bayes/BayesNet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bayes/BayesNet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bayes/InitialDurationNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bayes/InitialDurationNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bayes/NormalDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bayes/NormalDistribution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bayes/RisksNet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bayes/RisksNet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/PERTBayesNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/PERTBayesNetwork.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -121,8 +113,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/BayesNet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="290">
+              <caret line="32" column="71" lean-forward="true" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -276,7 +268,7 @@
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543823714982" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543823921429" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -398,7 +390,7 @@
       <workItem from="1543384959860" duration="2649000" />
       <workItem from="1543479443209" duration="1051000" />
       <workItem from="1543811226393" duration="562000" />
-      <workItem from="1543812250844" duration="8029000" />
+      <workItem from="1543812250844" duration="8297000" />
     </task>
     <task id="LOCAL-00001" summary="update workspace.xml">
       <created>1543239223687</created>
@@ -442,16 +434,24 @@
       <option name="project" value="LOCAL" />
       <updated>1543480400981</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update some files">
+      <created>1543823891561</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543823891561</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20538000" />
+    <option name="totallyTimeSpent" value="20806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -460,7 +460,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.20136987" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.20136987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.269863" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -492,7 +492,8 @@
     <MESSAGE value="optimize imports" />
     <MESSAGE value="update pom.xml" />
     <MESSAGE value="fix file path" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix file path" />
+    <MESSAGE value="update some files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update some files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Comparator.java">
@@ -798,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/BayesNet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="290">
+          <caret line="32" column="71" lean-forward="true" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
