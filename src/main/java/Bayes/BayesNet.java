@@ -24,13 +24,12 @@ public class BayesNet {
 			QueryOptions queryOptions = factory.createQueryOptions();
 			QueryOutput queryOutput = factory.createQueryOutput();
 			System.out.println("./probability" + id +".bin");
-			// Bước 1: Tạo đối tượng luồng và liên kết nguồn dữ liệu
 			FileOutputStream fos = new FileOutputStream("./probability" + id +".bin");
 			DataOutputStream dos = new DataOutputStream(fos);
 
 			// Ghi dữ liệu
 
-			for (int i = 0; i < 23; i++) {
+			for (int i = 0; i < 20; i++) {
 				Table queryRisk = new Table(risknet.getRiskNet().getNodes().get(i));
 				State stateTrue = risknet.getRiskNet().getNodes().get(i).getVariables().get(0).getStates().get("True");
 				State stateFalse = risknet.getRiskNet().getNodes().get(i).getVariables().get(0).getStates()

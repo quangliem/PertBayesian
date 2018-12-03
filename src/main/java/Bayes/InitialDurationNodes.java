@@ -11,7 +11,8 @@ public class InitialDurationNodes {
     Node estimatedDuration;
     Node totalDuration;
     Node riskEvent;
-    
+    int numRisks = 20;
+
     public String getTaskName() {
         return taskName;
     }
@@ -54,7 +55,6 @@ public class InitialDurationNodes {
     public void initDuration(double trungbinh, double xichma, double giatri) {
         estimatedDuration.setValue(getValueList(giatri));
         estimatedDuration.setProbability(probability(getValueList(giatri),trungbinh,xichma));
-
     }
     
     public void initRisk(String riskFile){
@@ -66,15 +66,15 @@ public class InitialDurationNodes {
             DataInputStream dis = new DataInputStream(fis);
 
             // Bước 2: Đọc dữ liệu				
-            for (int i = 0; i < 23; i++) {				
-		riskProbability[i] = dis.readDouble();				
+            for (int i = 0; i < numRisks; i++) {
+		    riskProbability[i] = dis.readDouble();
             }
-            System.out.println("total risk : " + riskProbability[22]);
+            System.out.println("total risk : " + riskProbability[numRisks - 1]);
             ArrayList<FieldProbability[]> arrP = new ArrayList<FieldProbability[]>();
             for (int i = 0; i < 5; i++) {
                 FieldProbability[] list = new FieldProbability[2];
-                FieldProbability pro1 = new FieldProbability(riskProbability[22], riskEvent.getName() + "1");
-                FieldProbability pro2 = new FieldProbability(1-riskProbability[22], riskEvent.getName() + "2");
+                FieldProbability pro1 = new FieldProbability(riskProbability[numRisks - 1], riskEvent.getName() + "1");
+                FieldProbability pro2 = new FieldProbability(1-riskProbability[numRisks - 1], riskEvent.getName() + "2");
                 list[0] = pro1;
                 list[1] = pro2;
                 arrP.add(list);
@@ -96,9 +96,7 @@ public class InitialDurationNodes {
     public void innitTotalDuration(double valu1, double valu2, double valu3, String riskFile) {
         double trungbinh = (valu1+ 4*valu2 + valu3)/6;
         double xichma = (valu3 - valu1)/6;
-        
         initDuration(trungbinh,xichma,valu2);
-        System.out.println(riskFile);
         initRisk(riskFile);
         
         totalDuration.getParents().add(estimatedDuration);
@@ -144,6 +142,7 @@ public class InitialDurationNodes {
     public ArrayList<FieldProbability[]> probability(double[] layGiaTri, double a, double b) {
         ArrayList<FieldProbability[]> arrP = new ArrayList<FieldProbability[]>();
         for (int i = 0; i < 5; i++) {
+            System.out.println(i);
             double giaTri = layGiaTri[i];
             FieldProbability[] probability = new FieldProbability[2];
             double value = NormalDistribution.cdf(giaTri,a,b);

@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0db909bd-298e-44af-bd9b-67dc4a3f6cf2" name="Default Changelist" comment="fix file path">
+    <list default="true" id="0db909bd-298e-44af-bd9b-67dc4a3f6cf2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distribution1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/distribution1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bayes/BayesNet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bayes/BayesNet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bayes/InitialDurationNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bayes/InitialDurationNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bayes/NormalDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bayes/NormalDistribution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bayes/RisksNet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bayes/RisksNet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bayes/TimeCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bayes/TimeCalculation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/DoThi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/DoThi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/PERTBayesNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/PERTBayesNetwork.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,45 +20,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PertBayesianNetwork$PERTBayesNetwork.ic" NAME="PERTBayesNetwork Coverage Results" MODIFIED="1543820254857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>GUI.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/NormalDistribution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/RiskBayesNetGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="65" column="110" lean-forward="true" selection-start-line="65" selection-start-column="110" selection-end-line="65" selection-end-column="110" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2233">
-              <caret line="160" column="34" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1367">
+            <state relative-caret-position="-1384">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -63,10 +40,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/TimeCalculation.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/MathLibrary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="296" column="5" lean-forward="true" selection-start-line="296" selection-start-column="5" selection-end-line="296" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/RiskBayesNet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-668">
+              <caret line="63" column="145" selection-start-line="63" selection-start-column="145" selection-end-line="63" selection-end-column="145" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,23 +61,56 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ActivityLayout.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/PERTBayesNetwork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-902">
-              <caret line="151" column="79" selection-start-line="151" selection-start-column="79" selection-end-line="151" selection-end-column="79" />
+            <state relative-caret-position="97">
+              <caret line="180" column="48" selection-start-line="180" selection-start-column="48" selection-end-line="180" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3637#3656#0" expanded="true" />
+                <element signature="e#742#831#0" expanded="true" />
+                <element signature="e#1692#1873#0" expanded="true" />
+                <element signature="e#1872#1873#0" expanded="true" />
+                <element signature="e#1953#2134#0" expanded="true" />
+                <element signature="e#2133#2134#0" expanded="true" />
+                <element signature="e#7759#11358#0" expanded="true" />
+                <element signature="e#10047#10053#0" expanded="true" />
+                <element signature="e#11357#11358#0" expanded="true" />
+                <element signature="e#10799#10805#0" expanded="true" />
+                <element signature="e#11687#15244#0" expanded="true" />
+                <element signature="e#15243#15244#0" expanded="true" />
+                <element signature="e#16528#16657#0" expanded="true" />
+                <element signature="e#16656#16657#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/BarChart_AWT.java">
+        <entry file="file://$PROJECT_DIR$/distribution1.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/BayesInActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+            <state relative-caret-position="75">
+              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/RisksNet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-861">
+              <caret line="805" lean-forward="true" selection-start-line="805" selection-end-line="805" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,23 +119,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/PERTBayesNetwork.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/BayesNet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="169" column="58" selection-start-line="169" selection-start-column="43" selection-end-line="169" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#707#737#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/DoThi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+            <state relative-caret-position="275">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,18 +131,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/PanelTask.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/InitialDurationNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1592">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="-1052">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#1976#1996#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-619">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>D:</find>
+      <find>D:/distribution</find>
+      <find>distribution</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -147,10 +175,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Bayes/BayesCalculation.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bayes/ConditionalProbability.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bayes/FieldProbability.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Bayes/InitialDurationNodes.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bayes/InitTotalDuration.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bayes/MathForDummies.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Bayes/NormalDistribution.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bayes/RiskBayesNetGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/ActivityLayout.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/BarChart_AWT.java" />
@@ -159,20 +185,22 @@
         <option value="$PROJECT_DIR$/src/main/java/GUI/Result1.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/Bayes/IOConditionalProbability.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Bayes/MathLibrary.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bayes/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bayes/RiskBayesNet.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bayes/Task.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bayes/test.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Bayes/BayesInActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Bayes/BayesNet.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bayes/CriticalPath.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GUI/PERTBayesNetwork.java" />
-        <option value="$PROJECT_DIR$/distribution1.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/Bayes/RisksNet.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bayes/TimeCalculation.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/DoThi.java" />
+        <option value="$PROJECT_DIR$/distribution1.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/Bayes/RisksNet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Bayes/BayesNet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Bayes/NormalDistribution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Bayes/MathLibrary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/PERTBayesNetwork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Bayes/InitialDurationNodes.java" />
       </list>
     </option>
   </component>
@@ -194,8 +222,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,14 +258,6 @@
             <path>
               <item name="PertBayesianNetwork" type="b2602c69:ProjectViewProjectNode" />
               <item name="PertBayesianNetwork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PertBayesianNetwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PertBayesianNetwork" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -250,13 +268,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="module" />
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543480376247" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543823714982" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -264,6 +285,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -281,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RisksNet">
+  <component name="RunManager" selected="Application.PERTBayesNetwork">
     <configuration name="BarChart_AWT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GUI.BarChart_AWT" />
       <module name="PertBayesianNetwork" />
@@ -308,6 +332,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PERTBayesNetwork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.PERTBayesNetwork" />
+      <module name="PertBayesianNetwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RisksNet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bayes.RisksNet" />
       <module name="PertBayesianNetwork" />
@@ -321,10 +358,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bayes.test" />
+      <module name="PertBayesianNetwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bayes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RisksNet" />
+        <item itemvalue="Application.PERTBayesNetwork" />
         <item itemvalue="Application.BayesNet" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.RisksNet" />
         <item itemvalue="Application.BarChart_AWT" />
       </list>
     </recent_temporary>
@@ -344,7 +396,9 @@
       <workItem from="1543305989589" duration="844000" />
       <workItem from="1543384555524" duration="362000" />
       <workItem from="1543384959860" duration="2649000" />
-      <workItem from="1543479443209" duration="845000" />
+      <workItem from="1543479443209" duration="1051000" />
+      <workItem from="1543811226393" duration="562000" />
+      <workItem from="1543812250844" duration="8029000" />
     </task>
     <task id="LOCAL-00001" summary="update workspace.xml">
       <created>1543239223687</created>
@@ -374,16 +428,30 @@
       <option name="project" value="LOCAL" />
       <updated>1543479707157</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix file path">
+      <created>1543480368224</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543480368224</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix file path">
+      <created>1543480400981</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543480400981</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11741000" />
+    <option name="totallyTimeSpent" value="20538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -391,9 +459,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1780822" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.20136987" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.269863" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -401,9 +469,10 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" weight="0.18767123" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.24931507" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32876712" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.16849315" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -460,16 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Result1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -477,72 +536,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distribution1.csv">
-      <provider editor-type-id="text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/BayesNet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/InitialDurationNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/RisksNet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="526" column="32" selection-start-line="526" selection-start-column="32" selection-end-line="526" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#21427#21428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/RiskBayesNet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="63" column="145" selection-start-line="63" selection-start-column="145" selection-end-line="63" selection-end-column="145" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/MathLibrary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -563,47 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/CriticalPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/BayesInActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/BayesCalculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/ConditionalProbability.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#196#204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/FieldProbability.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/IOConditionalProbability.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -611,54 +563,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/NormalDistribution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/RiskBayesNetGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="65" column="110" lean-forward="true" selection-start-line="65" selection-start-column="110" selection-end-line="65" selection-end-column="110" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2233">
-          <caret line="160" column="34" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1367">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/TimeCalculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="296" column="5" lean-forward="true" selection-start-line="296" selection-start-column="5" selection-end-line="296" selection-end-column="5" />
+        <state relative-caret-position="825">
+          <caret line="65" column="110" selection-start-line="65" selection-start-column="110" selection-end-line="65" selection-end-column="110" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -667,18 +575,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ActivityLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-902">
+        <state relative-caret-position="2115">
           <caret line="151" column="79" selection-start-line="151" selection-start-column="79" selection-end-line="151" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3637#3656#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/BarChart_AWT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
+        <state relative-caret-position="990">
           <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -688,7 +595,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/DoThi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
+        <state relative-caret-position="480">
           <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -698,8 +605,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/PanelTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1592">
+        <state relative-caret-position="345">
           <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/probability1.bin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="119" lean-forward="true" selection-start-column="119" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="160" column="34" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/TimeCalculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3549">
+          <caret line="296" column="5" selection-start-line="296" selection-start-column="5" selection-end-line="296" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/FieldProbability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/NormalDistribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/BayesCalculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/CriticalPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/ConditionalProbability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#196#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1384">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/MathLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/RiskBayesNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-668">
+          <caret line="63" column="145" selection-start-line="63" selection-start-column="145" selection-end-line="63" selection-end-column="145" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -708,11 +727,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/PERTBayesNetwork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="169" column="58" selection-start-line="169" selection-start-column="43" selection-end-line="169" selection-end-column="58" />
+        <state relative-caret-position="97">
+          <caret line="180" column="48" selection-start-line="180" selection-start-column="48" selection-end-line="180" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#707#737#0" expanded="true" />
+            <element signature="e#742#831#0" expanded="true" />
+            <element signature="e#1692#1873#0" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#1953#2134#0" expanded="true" />
+            <element signature="e#2133#2134#0" expanded="true" />
+            <element signature="e#7759#11358#0" expanded="true" />
+            <element signature="e#10047#10053#0" expanded="true" />
+            <element signature="e#11357#11358#0" expanded="true" />
+            <element signature="e#10799#10805#0" expanded="true" />
+            <element signature="e#11687#15244#0" expanded="true" />
+            <element signature="e#15243#15244#0" expanded="true" />
+            <element signature="e#16528#16657#0" expanded="true" />
+            <element signature="e#16656#16657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-619">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/BayesInActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/InitialDurationNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1052">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#1976#1996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distribution1.csv">
+      <provider editor-type-id="text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/RisksNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-861">
+          <caret line="805" lean-forward="true" selection-start-line="805" selection-end-line="805" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bayes/BayesNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

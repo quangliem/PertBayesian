@@ -15,7 +15,7 @@ public class NormalDistribution {
         if (z < -8.0) return 0.0;
         if (z >  8.0) return 1.0;
         double sum = 0.0, term = z;
-        for (int i = 3; sum + term != sum; i += 2) {
+        for (int i = 3; Math.abs(term) < 1e-5; i += 2) {
             sum  = sum + term;
             term = term * z * z / i;
         }
@@ -24,6 +24,7 @@ public class NormalDistribution {
 
     // return cdf(z, mu, sigma) = Gaussian cdf with mean mu and stddev sigma
     public static double cdf(double z, double mu, double sigma) {
+        System.out.println(sigma);
         return cdf((z - mu) / sigma);
     } 
 
