@@ -27,10 +27,11 @@ public class DoThi extends JPanel {
         }
         XYSeriesCollection B = new XYSeriesCollection();
         B.addSeries(a2);
-        JFreeChart barChart = ChartFactory.createXYLineChart("Đồ thị phân bố xác suất thời gian hoàn thành của " + tit, "Time", "Probability", B, PlotOrientation.VERTICAL, false, false, false);
+        JFreeChart barChart = ChartFactory.createXYLineChart("Đồ thị phân bố xác suất thời gian hoàn thành của dự án" , "Time", "Probability", B, PlotOrientation.VERTICAL, false, false, false);
+        barChart.getPlot().setBackgroundPaint(Color.WHITE);
         XYPlot plot = barChart.getXYPlot();
         XYLineAndShapeRenderer re = new XYLineAndShapeRenderer();
-        re.setSeriesPaint(0, Color.RED);
+        re.setSeriesPaint(0, Color.BLUE);
         re.setSeriesStroke(0, new BasicStroke(4.0f));
         plot.setRenderer(re);
         ChartPanel panel = new ChartPanel(barChart);
@@ -50,9 +51,10 @@ public class DoThi extends JPanel {
         XYSeriesCollection B = new XYSeriesCollection();
         B.addSeries(a);
         JFreeChart barChart = ChartFactory.createXYLineChart("Đồ thị thể hiện sự phụ thuộc thời gian và xác suất", "Time", "Probability", B, PlotOrientation.VERTICAL, true, true, true);
+        barChart.getPlot().setBackgroundPaint(Color.WHITE);
         XYPlot plot = barChart.getXYPlot();
         XYLineAndShapeRenderer re = new XYLineAndShapeRenderer();
-        re.setSeriesPaint(0, Color.RED);
+        re.setSeriesPaint(0, Color.BLUE);
         re.setSeriesStroke(0, new BasicStroke(4.0f));
 
         plot.setRenderer(re);

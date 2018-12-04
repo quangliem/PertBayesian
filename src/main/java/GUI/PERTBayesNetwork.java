@@ -8,6 +8,7 @@ import jxl.Workbook;
 import jxl.read.biff.BiffException;
 
 import javax.swing.*;
+import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -19,7 +20,6 @@ public class PERTBayesNetwork extends javax.swing.JFrame {
     int numFiles = 1;
     public static String    FILE_DIRECTORY = "./dulieu";
     String projectFilePath;
-    //CreatAction creat;
     public PERTBayesNetwork() {
         initComponents();
         // creat = new CreatAction();
@@ -64,6 +64,8 @@ public class PERTBayesNetwork extends javax.swing.JFrame {
         });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setOpaque(true);
+        jPanel2.setBackground(Color.WHITE);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -152,7 +154,7 @@ public class PERTBayesNetwork extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed  Kết quả
           if(projectFilePath != null){
               final ArrayList<Task> luuTask= new ArrayList<Task>();
               new Thread(new Runnable() {
@@ -170,20 +172,15 @@ public class PERTBayesNetwork extends javax.swing.JFrame {
                           System.out.println("Reading data in file.......");
                           // read data in each cell
                           for (int row = 1; row < rows; row++) {
-                              System.out.println(row);
                               String riskFile = "./probability" + rand(1, numFiles) +".bin";
                               String name = sheet.getCell(1, row).getContents();
                               int optimistic = Integer.parseInt(sheet.getCell(2, row).getContents());
                               int mostlikely = Integer.parseInt(sheet.getCell(3, row).getContents());
                               int pessimistic = Integer.parseInt(sheet.getCell(4, row).getContents());
                               InitialDurationNodes duration = new InitialDurationNodes();
-//                        System.out.println("đến đây");
                               duration.innitTotalDuration(Double.valueOf(optimistic),Double.valueOf(mostlikely),Double.valueOf(pessimistic),riskFile);
-                              System.out.println(row);
                               Task task = new Task(name, riskFile, duration.getEstimatedDuration(), duration.getTotalDuration());
-                              System.out.println(row);
                               luuTask.add(task);
-                              System.out.println(row);
                           }
                           for(int row = 1; row < rows ; row++){
                               String predecessor = sheet.getCell(5,row).getContents();
@@ -319,6 +316,17 @@ public class PERTBayesNetwork extends javax.swing.JFrame {
         }
     }
     public static void main(String args[]) {
+        try {
+            UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (UnsupportedLookAndFeelException e) {
+            e.printStackTrace();
+        }
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new PERTBayesNetwork().setVisible(true);

@@ -64,7 +64,7 @@ public class BarChart_AWT extends JFrame {
 
     public static void main(String[] args) {
         InitTotalDuration totl = new InitTotalDuration();
-        totl.innitTotalDuration(8, 11,12, "10");
+        totl.innitTotalDuration(8, 11,12, "probability1.bin");
         XYSeries a = new XYSeries("AAA");
         a.add(1, 1);
         a.add(1, 3);
