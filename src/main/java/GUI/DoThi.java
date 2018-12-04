@@ -12,7 +12,6 @@ import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
-import org.jfree.data.xy.XYSeriesCollection;
 
 public class DoThi extends JPanel {
 
@@ -38,8 +37,6 @@ public class DoThi extends JPanel {
         panel.setSize(400, 400);
         panel.setLocation(0, 0);
         this.add(panel);
-        //this.setSize(500, 600);
-//        this.setVisible(true);
     }
 
     public DoThi(ArrayList<ArrayList<Double>> duLieu, String s, int size) {
