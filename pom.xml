@@ -34,7 +34,7 @@
             <artifactId>bayesserver</artifactId>
             <version>7.25</version>
             <scope>system</scope>
-            <systemPath>/Users/cuongtv/IdeaProjects/bayesserver-7.25.jar</systemPath>
+            <systemPath>/Users/quangliem/mvn-repo/bayesserver-7.25.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.jfree</groupId>
